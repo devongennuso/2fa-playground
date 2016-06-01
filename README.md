@@ -1,7 +1,7 @@
 # 2fa-playground
 
 # An attempt to showcase two-factor authentication with node.js - a work in progress
-1. change routes/users.js to your gmail credentials
+Change routes/users.js to your gmail credentials
 ```javascript
   var mailData = {
       from: 'your@email.com',
