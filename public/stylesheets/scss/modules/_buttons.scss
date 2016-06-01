@@ -1,0 +1,46 @@
+button {
+  margin-top: 2rem;
+  font-family: 'Raleway Dots', sans-serif;
+  letter-spacing: 0.10em;
+  font-size: 18px;
+  width: 90%;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  color: #f2f2f2;
+  border: none;
+  background: -moz-linear-gradient(270deg, rgba(111,0,255,1) 0%, rgba(37,4,128,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(111,0,255,1)), color-stop(100%, rgba(37,4,128,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(270deg, rgba(111,0,255,1) 0%, rgba(37,4,128,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(270deg, rgba(111,0,255,1) 0%, rgba(37,4,128,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(270deg, rgba(111,0,255,1) 0%, rgba(37,4,128,1) 100%); /* ie10+ */
+  background: linear-gradient(180deg, rgba(111,0,255,1) 0%, rgba(37,4,128,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6F00FF', endColorstr='#250480',GradientType=0 ); /* ie6-9 */
+}
+
+.button {
+  font-family: 'Raleway', sans-serif;
+  border-radius: 3px;
+  padding: 10px 8px 10px 8px;
+  width: 100%;
+  text-align: center;
+  &.white {
+    background: #fff;
+    color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+  }
+  &.transparent {
+    border: 1px solid #fff;
+    color: #fff;
+    opacity: 0.82;
+  }
+  &:hover {
+    cursor: pointer;
+    transition: all 65ms ease;
+    opacity: 0.81;
+  }
+  &:active {
+    transition: all 65ms ease;
+    transform: scale(.95);
+    opacity: .72;
+  }
+}

@@ -1,0 +1,10 @@
+.material-icons {
+  color: #03A9F4;
+  &.md-48 {
+    font-size: 48px;
+  }
+  &.circle {
+    border: 1px solid rebeccapurple;
+    border-radius: 50%;
+  }
+}

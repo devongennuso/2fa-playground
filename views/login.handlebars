@@ -1,0 +1,13 @@
+<div class='row middle-sm center-sm login'>
+  <div class='col-xs-12 col-sm-8 col-md-6 form'>
+    <h1>Login</h1>
+    <form method='post' action='/users/login'>
+      <input type='text' name='email' placeholder='Email'>
+      <input type='password' name='password' name='password' placeholder='Password'>
+      {{#if hasSecureSetup}}
+      <input type='text' name='secureCode' placeholder='Secure Code'>
+      {{/if}}
+      <button type='submit'>Login</button>
+    </form>
+  </div>
+</div>

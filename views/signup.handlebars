@@ -1,0 +1,47 @@
+<div class='row middle-sm login'>
+
+  <div class='col-md-8 your-space'>
+    <h1>Your Space To <br>Be Social.</h1>
+    <h6>
+      Blast off today and join the fun! Getting started is<br>
+      only a few clicks away.
+    </h6>
+    <div class='row'>
+      <div class='col-sm-3'>
+        <div class='button white'>Learn more</div>
+      </div>
+    </div>
+  </div>
+  {{!-- #your-space --}}
+
+  <div class='col-sm-12 col-md-4 form'>
+    <h1>Let's Prepare for Launch!</h1>
+    <h5>
+      Getting started is quick and simple, <br>
+      <span>just fill out the form below!</span>
+    </h5>
+    <form method='post' action='/users/signup'>
+      <input type='text' name='firstName' placeholder='First Name'>
+      <input type='text' name='lastName' placeholder='Last Name'>
+      <input type='password' name='password' placeholder='Password'>
+      <input type='text' name='email' placeholder='Email'>
+      <div class='row start-sm'>
+        <div class='col-sm-12 tcs-container'>
+          <input type='checkbox' name='tcs' />
+          <label for='tcs'>
+            I agree to <span>Terms & Conditions</span>
+          </label>
+        </div>
+      </div>
+      <button type='submit'>Sign up</button>
+      <div class='account'>
+        Already have an account? Click
+        <span id='existing-account'>
+          <a href='/login'>here</a>
+        </span> to login.
+      </div>
+    </form>
+  </div>
+  {{!-- #form --}}
+
+</div>
