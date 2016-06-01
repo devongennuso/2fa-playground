@@ -1,8 +1,7 @@
 # 2fa-playground
 
 # An attempt to showcase two-factor authentication with node.js - a work in progress
-1. npm install
-2. change routes/users.js to your gmail credentials
+1. change routes/users.js to your gmail credentials
 ```javascript
   var mailData = {
       from: 'your@email.com',
@@ -13,7 +12,10 @@
 
     var transporter = nodemailer.createTransport('smtps://user%40gmail.com:password@stmp.gmail.com');
 ```
+2. npm install
 3. npm start
+
+# 2FA flow
 
 1. Sign Up
 2. Login in with email and password
