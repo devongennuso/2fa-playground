@@ -13,7 +13,7 @@
 
     var transporter = nodemailer.createTransport('smtps://user%40gmail.com:password@stmp.gmail.com');
 ```
-3. node app.js
+3. npm start
 
 1. Sign Up
 2. Login in with email and password
